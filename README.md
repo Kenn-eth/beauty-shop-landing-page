@@ -1,0 +1,1 @@
+# beauty-shop-landing-page
