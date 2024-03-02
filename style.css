@@ -12,7 +12,7 @@ body {
 .container {
   margin: 6vh auto;
   width: 75%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   box-sizing: border-box;
   position: relative;
@@ -91,9 +91,10 @@ hr {
 
 .section-i {
   display: flex;
-  margin-top: 10vh;
+  margin-top: 9vh;
   margin-left: 7vw;
   width: 70vw;
+  box-sizing: border-box;
 }
 
 .mid-column {
@@ -109,66 +110,107 @@ hr {
   font-family: "Playfair", serif;
   margin-bottom: 3vh;
   width: 40vw;
-  line-height: 12vh;
+  line-height: 8vh;
 }
 .mid-column p {
   overflow: visible;
-  margin-top: 5vh;
+  margin-top: 2vh;
   font-size: 1vw;
   width: 22vw;
-  margin-bottom: 30px;
+  margin-bottom: 1.5vw;
 }
 .services {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 13vw;
 }
+
+/* .services svg {
+  padding: 50%;
+}
+
+.services span {
+  padding: 50%;
+} */
+
 .mid-column svg {
-  height: 40px;
+  height: 7vh;
   width: auto;
   cursor: pointer;
 }
 
 .mid-column span {
   font-family: sans-serif;
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 1.5vw;
+  margin-top: 1vw;
   cursor: pointer;
 }
 .left-column {
-  height: 70vh;
-  width: 60%;
+  height: 68vh;
+  width: 28vw;
 }
 .left-column img {
   border: 1px solid rgba(248, 213, 191, 0.2);
-  width: 100%;
-  height: auto;
+  width: 28vw;
+  height: 28vh;
 }
 
 .left-column span {
   color: #f8d5bf;
   border: 1px solid rgba(248, 213, 191, 0.2);
-  padding-left: 40px;
+  padding-left: 5vw;
+  padding-top: 1.5vw;
+  box-sizing: border-box;
+  font-size: 1vw;
   font-family: "Teko", sans-serif;
   font-weight: 100;
-  height: 23.8vh;
+  height: 20vh;
 }
 
 .equal-squares {
   width: 50%;
-  height: 20vh;
+  height: 18vh;
 }
 
 span > p {
-  margin-top: 2px;
+  margin-top: 0.1vw;
 }
 
 span > h1 {
-  margin-bottom: 1px;
-  padding-bottom: 1px;
+  margin-bottom: 0.1vw;
+  padding-bottom: 0.1vw;
 }
 
 .nav-items span {
   color: #f8d5bf;
-  margin: 0 4px;
+  margin: 0 0.4vw;
+}
+
+@media screen and (max-width: 750px) {
+  .section-i {
+    display: block;
+  }
+
+  .left-column {
+    width: 35vw;
+    height: 45vh;
+  }
+
+  .left-column img {
+    width: 100%;
+    height: 15vh;
+  }
+
+  .left-column span {
+    height: 11vh;
+  }
+
+  .equal-squares {
+    height: 10vh;
+  }
+
+  .mid-column h1 {
+    line-height: 3vh;
+  }
 }
