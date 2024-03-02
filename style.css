@@ -19,19 +19,17 @@ body {
 }
 
 .col-i {
-  width: 66%;
+  width: 55vw;
   height: 100%;
   background-color: #212121;
 }
 
 .col-ii {
-  width: 34%;
+  width: 45vw;
   height: 100%;
   background-image: url(assets/images/apostolos-vamvouras-KqfK5QQpMeQ-unsplash.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  opacity: 1;
-  overlay: black;
   z-index: 0;
 }
 
@@ -55,6 +53,7 @@ body {
   width: 30vw;
   margin-left: 90px;
 }
+
 .nav-items span {
   font-family: "Teko", sans-serif;
   margin: 0 10vw;
@@ -93,7 +92,8 @@ hr {
 .section-i {
   display: flex;
   margin-top: 10vh;
-  margin-left: 5vw;
+  margin-left: 7vw;
+  width: 70vw;
 }
 
 .mid-column {
@@ -105,23 +105,23 @@ hr {
 }
 
 .mid-column h1 {
-  font-size: 78px;
+  font-size: 5.5vw;
   font-family: "Playfair", serif;
-  margin-bottom: 1.5px;
+  margin-bottom: 3vh;
   width: 40vw;
-  line-height: 70px;
+  line-height: 12vh;
 }
 .mid-column p {
   overflow: visible;
-  margin-top: 20px;
-  font-size: 12px;
+  margin-top: 5vh;
+  font-size: 1vw;
   width: 22vw;
   margin-bottom: 30px;
 }
 .services {
   display: flex;
-  justify-content: space-between;
-  width: 130px;
+  justify-content: space-evenly;
+  width: 13vw;
 }
 .mid-column svg {
   height: 40px;
@@ -136,12 +136,13 @@ hr {
   cursor: pointer;
 }
 .left-column {
-  height: 90vh;
+  height: 70vh;
+  width: 60%;
 }
 .left-column img {
   border: 1px solid rgba(248, 213, 191, 0.2);
-  width: auto;
-  height: 170px;
+  width: 100%;
+  height: auto;
 }
 
 .left-column span {
@@ -155,6 +156,7 @@ hr {
 
 .equal-squares {
   width: 50%;
+  height: 20vh;
 }
 
 span > p {
